@@ -1,0 +1,200 @@
+body{
+    font-family:  Arial, sans-serif;
+    margin: 20px;
+    background-color: rgba(177, 214, 233, 0.411);
+}
+
+.heading{
+    color: rgb(12, 37, 49);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainn{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    /* text-align: center; */
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.personal{
+    color: rgb(17, 112, 160);
+    /* background-color: aliceblue; */
+    text-align: center;
+    padding: 5px;
+    font-size: xx-large;
+}
+
+.forpic{
+    color: rgb(0, 170, 255);
+}
+
+input[type="file"]{
+    font-size: 15px;
+    padding: 10px;
+    width: 250px;
+    background-color:aliceblue ;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+input[type="file"]::file.selector-button{
+    background-color: aliceblue;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+    border-radius: #393cdd;
+    border-radius: 10px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: aliceblue;
+    border-width: 3px;
+    border-radius: 50px;
+}
+
+#resumeOutput{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid aliceblue;
+    color: rgb(0, 170, 255);
+}
+
+#shareable-link{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    /* border: 3px solid aliceblue; */
+    color: rgb(0, 170, 255);
+}
+
+
+#submit{
+    max-width: 600px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 0 20%;
+    align-items: center;
+    color: rgb(10, 99, 144);
+}
+
+#submit:hover{
+    color: black;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+#downloadpdf{
+    max-width: 600px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 0 20%;
+    align-items: center;
+    color: rgb(10, 99, 144);
+}
+
+#downloadpdf:hover{
+    color: black;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px rgb(124, 123, 123);
+
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+h1{
+    color: rgb(0, 170, 255);
+    background-color: rgb(223, 245, 245);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2,p{
+    margin: 10px 0;
+}
+
+h2{
+    font-size: 35px;
+    font-family: cursive;
+}
+
+p{
+    color: rgb(108, 38, 238);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img{
+    max-width: 150px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media(max-width: 600px)
+/* Adjusting padding and font size for smaller screen */
+{
+    body{
+        margin: 10px;
+    }
+
+    form{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    input,testArea{
+        font-size: 14px;
+        padding: 10px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    img{
+        max-width: 100px;
+    }
+
+    input[type="submit"]{
+        padding: auto;
+
+    }
+
+    #resumeOutput{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: -3px;
+    }
+}

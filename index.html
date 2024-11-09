@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><strong>Milestone 5 Shareable Resume Builder</strong></div>
+
+
+    <div class="mainn">
+        <form action="" id="resumeform">
+            <div class="personal"><strong>Personal Info</strong></div>
+            <label for="picture" class="inputname" id="upload"><strong>Upload Picture</strong></label>
+            <input type="file" name="picture" id="picture" class="forpic" accept="image/*"><br><br>
+
+           
+            <label for="name" class="inputname"><strong>Name:</strong></label>
+            <input type="text" id="name" name="name" required><br><br>
+
+
+            <label for="email" class="inputname"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required> <br><br>
+
+
+            <label for="phone" class="inputname" ><strong>Phone Number:</strong></label>
+            <input type="tel" name="phone" id="phone" required><br><br>
+
+
+            <label for="addres" class="inputname"><strong>Address:</strong></label>
+            <input type="text" name="address" id="address" required><br><br>
+
+
+
+
+    <div class="personal"><strong>Skills</strong></div>
+    <label for="skills" class="inputname"><strong>Skills:</strong></label>
+    <input type="text" name="skills" id="skills" required><br><br>
+
+
+    <div class="personal"><strong>Education</strong></div>
+    <label for="education" class="inputname"><strong>Education:</strong></label>
+    <textarea name="education" id="education" required></textarea><br><br>
+
+
+    <div class="personal"><strong>Experience</strong></div>
+    <label for="experience" class="experience"><strong>Work Experience:</strong></label>
+    <textarea name="experience" id="experience" required></textarea><br><br>
+
+    <input type="submit" id="submit" class="inputname" value="generate Resume">
+
+
+        </form> 
+    </div>
+
+
+
+    <div id="resumeOutput">
+        <!-- resume will be generated Below  -->
+         <h1 class="resumeinfo">Personal Info</h1>
+         <img id="displayPicture">
+         <h2 id="displayName"> </h2>
+         <p id="displayPhone"> </p>
+         <p id="displayEmail"> </p>
+         <p id="displayAddress"> </p>
+ 
+         <h1 class="resumeinfo">Skills</h1>
+         <p id="displaySkills"></p>
+
+         
+         <h1 class="resumeinfo">Education</h1>
+         <p id="displayEducation"></p>
+        
+
+         <h1 class="resumeinfo">Experience</h1>
+         <p id="displayExperience"></p>
+
+
+
+
+    </div>
+
+    <div id="shareable-link">
+        <h2>shareable Link</h2>
+        <p>Here is your shareable link to view or edit your resume.</p>
+        <a href="#" id="shareable-link" target="_blank"><b>maazali6578@gmail.com</b></a><br><br>
+        <button id="downloadpdf"><b>Download PDF</b></button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
